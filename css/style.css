@@ -1,0 +1,45 @@
+body {
+  height: 100vh;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.modal {
+  background: rgba(0, 0, 0, 0.45);
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.modal-window {
+  width: 500px;
+  height: 400px;
+  background: #fff;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+.modal-window #close-icon {
+  position: absolute;
+  top: 0px;
+  right: -20px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.modalActive {
+  display: flex;
+}
+
+h1 {
+  display: none;
+}
+
+.activeHeader {
+  display: block;
+}/*# sourceMappingURL=style.css.map */
